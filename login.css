@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(10, 9, 9);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.info p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.email input {
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  width: 350px;
+  /* font-size: 15px; */
+}
+.password input {
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  width: 350px;
+  /* font-size: 15px; */
+}
+.button-login button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(122, 74, 226);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+.button-login button:hover {
+  background-color: rgb(103, 35, 255);
+}
